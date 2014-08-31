@@ -76,7 +76,7 @@
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalDependencies>gtest_maind.lib;gtestd.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>..\gtest-1.7.0\msvc\gtest\$(Configuration);../../lib/$(PlatformName)/$(Configuration)/</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>..\gtest-1.7.0\msvc\$(SolutionName)\$(Configuration);../../lib/$(PlatformName)/$(Configuration)/</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -99,7 +99,7 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <AdditionalDependencies>gtest_main.lib;gtest.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>..\gtest-1.7.0\msvc\gtest\Release;../../lib/$(PlatformName)/$(Configuration)/</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>..\gtest-1.7.0\msvc\$(SolutionName)\$(Configuration);../../lib/$(PlatformName)/$(Configuration)/</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
