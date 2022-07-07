@@ -13,7 +13,7 @@ The use case for using the code intends to be very simple. Determine the two ref
 
 The code is meant to be added to your exsting code as source. Just put the source files in with your other code and compile.
 
-## Advantage to Doing the Math Yourself
+## Advantage Versus Doing the Math Yourself
 This code only permutes and negates your input numbers. The actual math is two matrix multiplies that add round-off error to your numbers. This code keeps the exact precision of your input data, guaranteed.
 ## Samples
 This sample code converts a quaternion from a vendor's frame (RIGHT, FORWARD,UP) to (FORWARD, RIGHT, UP)
