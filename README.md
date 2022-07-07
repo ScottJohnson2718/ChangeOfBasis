@@ -55,3 +55,5 @@ matrixCob3x3( caseNumber,
     sensor.m10, sensor.m11, sensor.m12,
     sensor.m20, sensor.m21, sensor.m22);
 ```
+## Using the code
+Just cut/paste changeOfBasis.cpp and changeOfBasis.h into your project. The Visual Studio project is just for the test code and you don't need it.
